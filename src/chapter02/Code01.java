@@ -6,6 +6,6 @@ public class Code01 {
         System.out.print("Park Geyonggu\n");
         System.out.printf("Grade 1\n");
         System.out.println("result:"+(100+200));
-        System.out.println(100+200 + "dollar");
+        System.out.println(100+200 + "");
     }
 }
