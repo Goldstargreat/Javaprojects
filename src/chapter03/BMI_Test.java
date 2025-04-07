@@ -6,7 +6,7 @@ public class BMI_Test {
         Scanner s = new Scanner(System.in);
 
         System.out.println("\n===== bmi(체질량지수) Program =====");
-        System.out.println("몸무게를 입력하세요.: ");
+        System.out.println("몸무게를 입력하십시오.: ");
         double weight = s.nextDouble();
 
         System.out.println("* 키(cm) 입력: ");
