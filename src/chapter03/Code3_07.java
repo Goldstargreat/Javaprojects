@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class Code3_07 {
     public static void main(String[] args) {
+        double lb = 0.453592;
+        double kg = 2.204623;
         Scanner s = new Scanner(System.in);
-        double pound;
-        double kg;
 
-        System.out.print("Enter pound.(파운드를 입력하세요.): ");
-        pound = s.nextDouble();
-        kg = pound * 0.45;
-        System.out.printf(pound + "파운드(lb)는 " + kg + "kg입니다.\n");
+        System.out.print("(파운드(lb)를 입력하세요.): ");
+        int num1 = s.nextInt();
+        double result1 = num1 * lb;
+        System.out.printf("%d파운드(lb)는 %.3f kg 입니다.\n", num1, result1);
 
-        System.out.print("Enter kg.(킬로그램을 입력하세요.): ");
-        pound = s.nextDouble();
-        kg = pound * 0.45;
-        System.out.printf(pound + "킬로그램(kg)은 " + kg + "kg입니다.");
+        System.out.print("킬로그램(kg)을 입력하세요.): ");
+        int num2 = s.nextInt();
+
+        double result2 = num2 * kg ;
+        System.out.printf("%d kg은 %.3f 파운드(lb) 입니다.\n", num2, result2);
 
         s.close();
     }
