@@ -24,7 +24,7 @@ public class Code05_09 {
             case Calendar.FRIDAY: dayCh = '금';
             break;
             case Calendar.SATURDAY: dayCh = '토';
-            break;
+            break; // 마지막 브레이크
         }
         System.out.println("오늘은" + dayCh + "요일입니다");
     }
