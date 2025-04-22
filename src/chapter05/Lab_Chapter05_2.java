@@ -21,7 +21,7 @@ public class Lab_Chapter05_2 {
             else if(computerhand.equals("보"))
                 System.out.println("이겼습니다.");
         }
-        if(myHand.equals("바위")){
+        else if(myHand.equals("바위")){
             if(computerhand.equals("가위"))
                 System.out.println("이겼습니다.");
             else if(computerhand.equals("바위"))
