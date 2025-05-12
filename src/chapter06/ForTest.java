@@ -1,8 +1,6 @@
 package chapter06;
 
-import java.util.ArrayList;
-
-public class forTest {
+public class ForTest {
     public static void main(String[] args) {
         String[] names = {"소원", "예린", "유주", "은하", "신비", "엄지", "gfriend"}; //구성원의 수가 늘어나도 변함없음
 
