@@ -1,7 +1,7 @@
 package chapter06;
 
 //for문처럼 쓰고 있다.
-public class WhileTest {
+public class WhileTest1 {
     public static void main(String[] args) {
         int i = 0;
         while (i <5){
