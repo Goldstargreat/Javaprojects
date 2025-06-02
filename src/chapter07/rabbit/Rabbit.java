@@ -6,6 +6,17 @@ public class Rabbit {
     private int x;
     private int y;
 
+    public Rabbit(){
+        shape = "기본 토끼";
+        x = 30;
+        y = 30;
+    }
+    public Rabbit(String shape, int x, int y){
+        this.shape = shape;
+        this.x = x;
+        this.y = y;
+    }
+
     public String getShape() {
         return shape;
     }
