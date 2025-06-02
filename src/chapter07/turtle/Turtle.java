@@ -1,4 +1,4 @@
-package chapter07;
+package chapter07.turtle;
 
 /**AUTHOR: NICHOLAS SEWARD
  * EMAIL: nicholas.seward@gmail.com
