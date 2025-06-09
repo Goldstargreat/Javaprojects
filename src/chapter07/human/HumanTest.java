@@ -1,4 +1,4 @@
-package chapter07;
+package chapter07.human;
 
 public class HumanTest {
     public static void main(String[] args) {

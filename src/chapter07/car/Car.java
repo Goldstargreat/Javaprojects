@@ -1,4 +1,4 @@
-package chapter07;
+package chapter07.car;
 
 public class Car {
 //    속성과 기능(단순화:추상화)
